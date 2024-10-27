@@ -2,6 +2,8 @@
 
 This is the backend server for the Home Rental Management System, built with Node.js, Express, and SQLite.
 
+For more the frontend React application, please refer to the [Frontend React App](https://github.com/Pranav2501/home-rental-management-system-frontend).
+
 ## Features
 
 - RESTful API endpoints for managing properties, property owners, applications, maintenance requests, and tenants
@@ -52,7 +54,7 @@ home-rental-management-system-backend/
 Start the server with:
 
 ```
-npm start
+node server.js
 ```
 
 The server will run on `http://localhost:4000` by default.
